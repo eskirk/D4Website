@@ -1,5 +1,16 @@
 /* Nav bar css */
+.logo {
+    
+}
 a:link {
+    color: #FEFF09;
+    text-decoration: none;
+}
+a:visited:hover {
+    color: #2C2C2C;
+    text-decoration: none;
+}
+a:visited {
     color: #FEFF09;
     text-decoration: none;
 }
@@ -11,7 +22,10 @@ a:hover {
     color: #2C2C2C;
     text-decoration: none; 
 }
-.header {
+a {
+    text-decoration: none;
+}
+.menu {
     background: #2C2C2C;
 }
 nav ul {
@@ -41,10 +55,12 @@ nav span {
   left li {
     margin: 0;
     transform: skewX(45deg);
+    padding: 0 2% 0 0;
   }
   right li {
     margin: 0;
     transform: skewX(-45deg);
+    padding: 0 0 0 2%;
   }
   nav a {
     padding: 10px 20px;
@@ -63,6 +79,15 @@ nav span {
   }
 }
 
+
+/* Landing page */ 
 .content {
-    background-color: #2C2C2C;
+/*    background-color: #2C2C2C;*/
+    padding: auto;
+}
+
+/* Bootstrap */
+.col-centered {
+    float: none;
+    margin: auto;
 }
