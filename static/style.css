@@ -1,3 +1,13 @@
+/* Global */
+@font-face {
+    font-family: 'geomanist';
+    src: url('font/geomanist-regular-webfont.eot');
+    src: url('font/geomanist-regular-webfont.ttf') format('truetype');
+}
+body {
+    font-family: 'geomanist' !important;
+}
+
 /* Nav bar css */
 .logo {
     
