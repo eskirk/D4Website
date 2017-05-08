@@ -7,6 +7,16 @@
 body {
     font-family: 'geomanist' !important;
 }
+.content-white {
+    color: #FCFCFC;
+}
+.container-fluid {
+    width: 1440px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /* Nav bar css */
 .logo {
@@ -17,7 +27,7 @@ a:link {
     text-decoration: none;
 }
 a:visited:hover {
-    color: #2C2C2C;
+    color: #262626;
     text-decoration: none;
 }
 a:visited {
@@ -25,18 +35,19 @@ a:visited {
     text-decoration: none;
 }
 a:link:hover {
-    color: #2C2C2C;
+    color: #262626;
     text-decoration: none;
 }
 a:hover {
-    color: #2C2C2C;
+    color: #262626;
     text-decoration: none; 
 }
 a {
     text-decoration: none;
 }
 .menu {
-    background: #2C2C2C;
+    font-weight: bold !important;
+    background: #262626;
 }
 nav ul {
     list-style: none;
@@ -51,7 +62,7 @@ nav li {
 }
 nav a {
     display: block;
-    color: #2C2C2C;
+    color: #262626;
     transition: all 0.3s;
 }
 nav a:hover {
@@ -60,6 +71,7 @@ nav a:hover {
 nav span {
     display: block;
 }
+
 /* Nav bar skew css */
 @media all and (min-width: 690px) {
   left li {
@@ -75,7 +87,7 @@ nav span {
   nav a {
     padding: 10px 20px;
     color: #fff;
-    background-color: #2C2C2C;
+    background-color: #262626;
   }
   nav a:hover {
     color: #fff;
@@ -91,6 +103,59 @@ nav span {
 
 /* Landing page */ 
 
+
+/* About page */
+#gradient {
+    background: #FEFF09; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FEFF09, #FCFCFC); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FEFF09, #FCFCFC); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FEFF09, #FCFCFC); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FEFF09, #FCFCFC); /* Standard syntax */
+}
+#barry {
+    background: url("images/about/d4design_4.png");
+    background-size: cover;
+}
+#barry2 {
+    background: url("images/about/d4design_3.png");
+    background-size: cover;
+}
+#john {
+    background: url("images/about/d4design_2.png");
+    background-size: cover;
+}
+#john2 {
+    background: url("images/about/d4design.png");
+    background-size: cover;
+}
+#team {
+    padding-left: 10%;
+    font-size: 48pt;
+    font-weight: bolder;
+    font-style: italic;
+    color: #262626;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #262626;
+}
+#passion {
+    padding: 1% 10% 1% 10%;
+    width: 75%;
+}
+#yellow-title {
+    font-weight: bolder;
+    font-style: italic;
+    color: #FEFF09;
+    font-size: 28pt;
+    text-align: center;
+}
+.pull-right {
+    padding: 3% 8% 3% 30%;
+}
+.pull-left {
+    padding: 3% 30% 3% 8%;
+    padding-left: 8%;
+    padding-right: 30%;
+}
 /* Bootstrap */
 .col-centered {
     float: none;
