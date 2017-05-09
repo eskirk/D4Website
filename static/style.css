@@ -144,7 +144,7 @@ nav span {
 
 
 /* About page */
-#gradient {
+.gradient {
     background: #FEFF09; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#FEFF09, #FCFCFC); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#FEFF09, #FCFCFC); /* For Opera 11.1 to 12.0 */
@@ -213,7 +213,6 @@ nav span {
 }
 
 /* Innovations page */
-
 .header {
     padding: 2% 0 4% 0;
 }
@@ -279,6 +278,14 @@ nav span {
 }
 .reg-italic {
     font-family: 'geomanist-regular-italic';
+}
+
+/* Gear */
+.tent {
+    width: 1080px;
+    height: auto;
+    max-height: auto;
+    max-width: 100%;
 }
 
 /* Bootstrap */
