@@ -25,6 +25,7 @@ body {
     font-family: 'Bitter', serif;
     line-height: 1.9;
     color: #FCFCFC;
+    font-size: 12pt;
 }
 .content-bitter {
     font-family: 'Bitter', serif;
@@ -33,10 +34,16 @@ body {
 .container {
     max-width: 1440px !important;
 }
+.container-fluid {
+    max-width: 1980px !important;
+}
+
 .highlight {
     background: #FEFF09;
-    background-position: 200px 200px;
     background-attachment: local;
+}
+.highlighted {
+    z-index: 2;
 }
 .right-text {
     padding-right: 10%
@@ -243,7 +250,14 @@ nav span {
     max-height: 70%;
     max-width: 70%;
 }
-
+#authentic {
+    background: url("images/innovations/authentic.png");
+    background-size: cover;
+}
+#d4_design {
+    background: url("images/innovations/d4design.png");
+    background-size: cover;
+}
 .pull-right-2 {
     padding: 0% 8% 3% 30%;
 }
