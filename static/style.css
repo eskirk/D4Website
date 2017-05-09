@@ -10,20 +10,23 @@ body {
 .content-white {
     color: #FCFCFC;
 }
-.container-fluid {
-    width: 1440px;
-    padding-right: 30px;
-    padding-left: 30px;
-    margin-right: auto;
-    margin-left: auto;
+.content-white-2 {
+    line-height: 1.9;
+    color: #FCFCFC;
 }
 .container {
-    width: 1440px !important;
+    max-width: 1440px !important;
 }
 .highlight {
     background: #FEFF09;
     background-position: 200px 200px;
     background-attachment: local;
+}
+.right-text {
+    padding-right: 10%
+}
+.left-text {
+    padding-left: 10%;
 }
 
 /* Nav bar css */
@@ -137,7 +140,6 @@ nav span {
     background-size: cover;
 }
 #team {
-    padding-left: 10%;
     font-size: 48pt;
     font-weight: bolder;
     font-style: italic;
@@ -146,8 +148,8 @@ nav span {
     -webkit-text-stroke-color: #262626;
 }
 #passion {
-    padding: 1% 10% 1% 10%;
-    width: 75%;
+    padding: 2% 0 2% 0;
+    width: 100%;
 }
 #yellow-title {
     font-weight: bolder;
@@ -156,6 +158,23 @@ nav span {
     font-size: 28pt;
     text-align: center;
 }
+#yellow-title-left {
+    font-weight: bolder;
+    font-style: italic;
+    color: #FEFF09;
+    font-size: 28pt;
+    text-align: left;
+    padding-left: 10%;
+}
+#yellow-title-right {
+    font-weight: bolder;
+    font-style: italic;
+    color: #FEFF09;
+    font-size: 28pt;
+    text-align: right;
+    padding-right: 10%;
+}
+
 .pull-right {
     padding: 3% 8% 3% 30%;
 }
@@ -186,14 +205,36 @@ nav span {
     background: url("images/innovations/packedfoldabillity.png");
     background-size: cover;
 }
+#tubing {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    max-height: 50%;
+    max-width: 50%;
+}
+#four-suspension {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    max-height: 70%;
+    max-width: 70%;
+}
+#corners {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    max-height: 40%;
+    max-width: 40%;
+}
+#foldable {
+    max-height: 70%;
+    max-width: 70%;
+}
 
-#yellow-title-2 {
-    font-weight: bolder;
-    font-style: italic;
-    color: #FEFF09;
-    font-size: 28pt;
-    text-align: center;
-    padding-bottom: -20px;
+.pull-right-2 {
+    padding: 0% 8% 3% 30%;
+}
+.pull-left-2 {
+    padding: 0% 30% 3% 8%;
+    padding-left: 8%;
+    padding-right: 30%;
 }
 
 /* Bootstrap */
