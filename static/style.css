@@ -4,6 +4,17 @@
     src: url('font/geomanist-regular-webfont.eot');
     src: url('font/geomanist-regular-webfont.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'geomanist-bold';
+    src: url('font/geomanist-bold-webfont.eot');
+    src: url('font/geomanist-bold-webfont.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'geomanist-bold-italic';
+    src: url('font/geomanist-bold-italic-webfont.eot');
+    src: url('font/geomanist-bold-italic-webfont.ttf') format('truetype');
+}
+
 body {
     font-family: 'geomanist' !important;
 }
@@ -11,8 +22,13 @@ body {
     color: #FCFCFC;
 }
 .content-white-2 {
+    font-family: 'Bitter', serif;
     line-height: 1.9;
     color: #FCFCFC;
+}
+.content-bitter {
+    font-family: 'Bitter', serif;
+    line-height: 1.5;
 }
 .container {
     max-width: 1440px !important;
@@ -235,6 +251,12 @@ nav span {
     padding: 0% 30% 3% 8%;
     padding-left: 8%;
     padding-right: 30%;
+}
+.innovation-title {
+    font-family: 'geomanist-bold'
+}
+.innovation-title-italic {
+    font-family: 'geomanist-bold-italic'
 }
 
 /* Bootstrap */
