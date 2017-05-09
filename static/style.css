@@ -17,6 +17,14 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+.container {
+    width: 1440px !important;
+}
+.highlight {
+    background: #FEFF09;
+    background-position: 200px 200px;
+    background-attachment: local;
+}
 
 /* Nav bar css */
 .logo {
@@ -156,6 +164,38 @@ nav span {
     padding-left: 8%;
     padding-right: 30%;
 }
+
+/* Innovations page */
+
+.header {
+    padding: 2% 0 4% 0;
+}
+#hybrid {
+    background: url("images/innovations/hybriddi.png");
+    background-size: cover;
+}
+#four-point {
+    background: url("images/innovations/fourpoint.png");
+    background-size: cover;
+}
+#curved {
+    background: url("images/innovations/curvedcornders.png");
+    background-size: cover;
+}
+#packed {
+    background: url("images/innovations/packedfoldabillity.png");
+    background-size: cover;
+}
+
+#yellow-title-2 {
+    font-weight: bolder;
+    font-style: italic;
+    color: #FEFF09;
+    font-size: 28pt;
+    text-align: center;
+    padding-bottom: -20px;
+}
+
 /* Bootstrap */
 .col-centered {
     float: none;
