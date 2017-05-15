@@ -285,10 +285,16 @@ nav span {
 
 /* Gear */
 .tent {
-    width: 1080px;
+    width: 900px;
     height: auto;
     max-height: auto;
     max-width: 100%;
+}
+.innov-hover:hover {
+    -webkit-box-shadow: 10px 10px 5px 1px rgba(254,255,9,1);
+    -moz-box-shadow: 10px 10px 5px 1px rgba(254,255,9,1);
+    box-shadow: 10px 10px 5px 1px rgba(254,255,9,1);
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 /* Bootstrap */
