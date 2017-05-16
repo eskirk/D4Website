@@ -296,6 +296,12 @@ nav span {
     box-shadow: 10px 10px 5px 1px rgba(254,255,9,1);
     transition: box-shadow 0.3s ease-in-out;
 }
+.selected {
+    -webkit-box-shadow: 10px 10px 5px 1px rgba(254,255,9,1);
+    -moz-box-shadow: 10px 10px 5px 1px rgba(254,255,9,1);
+    box-shadow: 10px 10px 5px 1px rgba(254,255,9,1);
+    transition: box-shadow 0.3s ease-in-out;
+}
 
 /* Bootstrap */
 .col-centered {
