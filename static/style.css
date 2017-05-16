@@ -30,7 +30,7 @@ body {
     font-family: 'Bitter', serif;
     line-height: 1.9;
     color: #FCFCFC;
-    font-size: 12pt;
+    font-size: 18px;
 }
 .content-bitter {
     font-family: 'Bitter', serif;
@@ -45,7 +45,8 @@ body {
 
 .highlight {
     background: #FEFF09;
-    background-attachment: local;
+    background-attachment: fixed;
+    background-position: left bottom;
 }
 .highlighted {
     z-index: 2;
