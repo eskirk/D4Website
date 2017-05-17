@@ -60,7 +60,8 @@ body {
 
 /* Nav bar css */
 .logo {
-    
+    height: 55px;
+    width: auto;
 }
 a:link {
     color: #FEFF09;
@@ -88,6 +89,8 @@ a {
 .menu {
     font-weight: bold !important;
     background: #262626;
+    font-size: 24px;
+    font-family: 'geomanist-bold';
 }
 nav ul {
     list-style: none;
