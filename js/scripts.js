@@ -43,3 +43,10 @@ function toggle4(divId) {
     $("#" + "choice2").toggleClass("selected", false);
     $("#" + "choice3").toggleClass("selected", false);
 }
+
+$(document).ready(function(){
+    // Select gallery element.
+    var elem = document.querySelector('.m-p-g');
+    // Init gallery
+    var gallery = new Gallery(elem);
+});

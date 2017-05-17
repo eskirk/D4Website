@@ -303,6 +303,13 @@ nav span {
     box-shadow: 10px 10px 5px 1px rgba(254,255,9,1);
     transition: box-shadow 0.3s ease-in-out;
 }
+.gallery {
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    max-height: 250px;
+    padding: 5px 5px 5px 5px;
+}
 
 /* Bootstrap */
 .col-centered {
