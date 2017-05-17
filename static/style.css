@@ -19,6 +19,11 @@
     src: url('font/geomanist-regular-italic-webfont.eot');
     src: url('font/geomanist-regular-italic-webfont.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'geomanist-medium';
+    src: url('font/geomanist-medium-webfont.eot');
+    src: url('font/geomanist-medium-webfont.ttf') format('truetype');
+}
 
 body {
     font-family: 'geomanist' !important;
@@ -87,10 +92,10 @@ a {
     text-decoration: none;
 }
 .menu {
-    font-weight: bold !important;
     background: #262626;
     font-size: 24px;
-    font-family: 'geomanist-bold';
+    font-family: 'geomanist-medium';
+    letter-spacing: 1px;
 }
 nav ul {
     list-style: none;
