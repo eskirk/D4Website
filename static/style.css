@@ -128,6 +128,9 @@ nav a {
 nav a:hover {
     color: #FEFF09;
 }
+nav .logo:hover {
+    color: #262626;
+}
 nav span {
     display: block;
 }
