@@ -346,6 +346,7 @@ nav span {
 }
 .hideme {
     display: none;
+    opacity: 0;
 }
 .thumbnails li, .thumbnails a, .thumbnails img {
     display: inline-block;

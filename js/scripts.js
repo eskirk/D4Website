@@ -54,7 +54,7 @@ $(document).ready(function(){
             large = document.getElementById('large'),
             cl = large.classList,
             lgwrap = document.getElementById('lg-wrap');
-        lgwrap.style.backgroundImage = 'none;';
+        lgwrap.style.backgroundImage = 'url(' + large.src + ')';
         lgwrap.style.backgroundImage = 'url(' + large.src + ')';
         if(cl) {
             cl.add('hideme');
@@ -62,7 +62,7 @@ $(document).ready(function(){
         window.setTimeout(function(){
             large.src = new_src;
             if(cl) {
-              cl.remove('hideme');  
+                cl.remove('hideme');  
             } 
         }, 50);
         e.preventDefault();
@@ -77,12 +77,13 @@ $(document).ready(function(){
             large = document.getElementById('large2'),
             cl = large.classList,
             lgwrap = document.getElementById('lg-wrap2');
-        lgwrap.style.backgroundImage = 'none';
+        lgwrap.style.backgroundImage = 'url(' + large.src + ')';
         lgwrap.style.backgroundImage = 'url(' + large.src + ')';
         if(cl) {
             cl.add('hideme');
         }
         window.setTimeout(function(){
+            large.src = '';
             large.src = new_src;
             if(cl) {
                 cl.remove('hideme');
