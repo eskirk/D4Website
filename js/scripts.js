@@ -54,7 +54,8 @@ $(document).ready(function(){
             large = document.getElementById('large'),
             cl = large.classList,
             lgwrap = document.getElementById('lg-wrap');
-        lgwrap.style.backgroundImage = 'url(' +large.src + ')';
+        lgwrap.style.backgroundImage = 'none;';
+        lgwrap.style.backgroundImage = 'url(' + large.src + ')';
         if(cl) {
             cl.add('hideme');
         }
@@ -76,7 +77,8 @@ $(document).ready(function(){
             large = document.getElementById('large2'),
             cl = large.classList,
             lgwrap = document.getElementById('lg-wrap2');
-        lgwrap.style.backgroundImage = 'url(' +large.src + ')';
+        lgwrap.style.backgroundImage = 'none';
+        lgwrap.style.backgroundImage = 'url(' + large.src + ')';
         if(cl) {
             cl.add('hideme');
         }

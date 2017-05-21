@@ -281,6 +281,11 @@ nav span {
     background: #FEFF09;
     max-height: 5px;
 }
+.cam-background {
+    background: url("images/innovations/cam+biner.svg");
+    background-size: cover;
+}
+
 .pull-right-2 {
     padding: 0% 8% 3% 30%;
 }
