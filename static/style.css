@@ -342,8 +342,6 @@ nav span {
 .hideme {
     display: none;
 }
-
-
 .thumbnails li, .thumbnails a, .thumbnails img {
     display: inline-block;
     width: 4.5em;
