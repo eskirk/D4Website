@@ -55,10 +55,14 @@ $(document).ready(function(){
             cl = large.classList,
             lgwrap = document.getElementById('lg-wrap');
         lgwrap.style.backgroundImage = 'url(' +large.src + ')';
-        if(cl) cl.add('hideme');
+        if(cl) {
+            cl.add('hideme');
+        }
         window.setTimeout(function(){
             large.src = new_src;
-            if(cl) cl.remove('hideme');
+            if(cl) {
+              cl.remove('hideme');  
+            } 
         }, 50);
         e.preventDefault();
     }, false);
@@ -73,10 +77,14 @@ $(document).ready(function(){
             cl = large.classList,
             lgwrap = document.getElementById('lg-wrap2');
         lgwrap.style.backgroundImage = 'url(' +large.src + ')';
-        if(cl) cl.add('hideme');
+        if(cl) {
+            cl.add('hideme');
+        }
         window.setTimeout(function(){
             large.src = new_src;
-            if(cl) cl.remove('hideme');
+            if(cl) {
+                cl.remove('hideme');
+            }
         }, 50);
         e.preventDefault();
     }, false);

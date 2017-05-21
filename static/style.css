@@ -322,6 +322,7 @@ nav span {
 /* Gallery */
 .gallery { 
     text-align: center; 
+    padding: 5% 0 5% 0;
 }
 .current-image-wrapper {
     background-position: 50% 50%;
@@ -338,13 +339,18 @@ nav span {
     opacity: 0;
     transition: opacity 0s;
 }
+.hideme {
+    display: none;
+}
+
+
 .thumbnails li, .thumbnails a, .thumbnails img {
     display: inline-block;
     width: 4.5em;
     height: 3em;
     border: none;
 }
-.thumbnails2 a { 
+.thumbnails a { 
     outline: none; 
 }
 .thumbnails2 li, .thumbnails2 a, .thumbnails2 img {
