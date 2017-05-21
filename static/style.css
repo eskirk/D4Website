@@ -344,7 +344,16 @@ nav span {
     height: 3em;
     border: none;
 }
-.thumbnails a { 
+.thumbnails2 a { 
+    outline: none; 
+}
+.thumbnails2 li, .thumbnails2 a, .thumbnails2 img {
+    display: inline-block;
+    width: 4.5em;
+    height: 3em;
+    border: none;
+}
+.thumbnails2 a { 
     outline: none; 
 }
 
