@@ -54,8 +54,9 @@ $(document).ready(function(){
             large = document.getElementById('large'),
             cl = large.classList,
             lgwrap = document.getElementById('lg-wrap');
-        lgwrap.style.backgroundImage = 'url(' + large.src + ')';
-        lgwrap.style.backgroundImage = 'url(' + large.src + ')';
+        large.style.display = 'none';
+        lgwrap.style.backgroundImage = 'url(' + new_src.src + ')';
+        large.style.display = 'inline';
         if(cl) {
             cl.add('hideme');
         }
@@ -77,8 +78,9 @@ $(document).ready(function(){
             large = document.getElementById('large2'),
             cl = large.classList,
             lgwrap = document.getElementById('lg-wrap2');
-        lgwrap.style.backgroundImage = 'url(' + large.src + ')';
-        lgwrap.style.backgroundImage = 'url(' + large.src + ')';
+        large.style.display = 'none';
+        lgwrap.style.backgroundImage = 'url(' + new_src.src + ')';
+        large.style.display = 'inline';
         if(cl) {
             cl.add('hideme');
         }
