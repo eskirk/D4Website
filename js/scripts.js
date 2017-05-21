@@ -85,7 +85,6 @@ $(document).ready(function(){
             cl.add('hideme');
         }
         window.setTimeout(function(){
-            large.src = '';
             large.src = new_src;
             if(cl) {
                 cl.remove('hideme');

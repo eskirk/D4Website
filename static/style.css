@@ -24,6 +24,11 @@
     src: url('font/geomanist-medium-webfont.eot');
     src: url('font/geomanist-medium-webfont.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'geomanist-medium-italic';
+    src: url('font/geomanist-medium-italic-webfont.eot');
+    src: url('font/geomanist-medium-italic-webfont.ttf') format('truetype');
+}
 
 body {
     font-family: 'geomanist' !important;
@@ -101,7 +106,7 @@ a {
 .menu {
     background: #262626;
     font-size: 24px;
-    font-family: 'geomanist-medium';
+    font-family: 'geomanist-medium-italic';
     letter-spacing: 1px;
 }
 nav ul {
@@ -366,6 +371,13 @@ nav span {
 .thumbnails2 a { 
     outline: none; 
 }
+
+/* Stories */
+.story-background {
+    background: url("images/stories/cam+biner_yellow.svg");
+    background-size: cover;
+}
+
 
 /* Bootstrap */
 .col-centered {
