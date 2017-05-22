@@ -164,14 +164,6 @@ nav span {
     transform: skewX(45deg)
   }
 }
-
-/* 404 page */
-.forofour {
-    background: url("images/404.png");
-    background-size: cover;
-}
-
-
 /* Landing page */ 
 
 
