@@ -377,9 +377,25 @@ nav span {
 
 /* Stories */
 .story-background {
-    background: url("images/stories/cam+biner_yellow.svg");
+    background: url("images/stories/cam+biner.png");
     background-size: cover;
 }
+.story-title-italic {
+    font-family: 'geomanist-bold-italic';
+    font-size: 48pt;
+    padding: 7% 0 7% 0;
+}
+.stories {
+    background: black;
+}
+#reads {
+    color: #FEFF09;
+    font-family: 'Bitter', serif;
+}
+#latest {
+    font-family: 'Bitter', serif;
+}
+
 
 
 /* Bootstrap */
