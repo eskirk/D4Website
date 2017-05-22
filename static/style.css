@@ -31,9 +31,10 @@
 }
 
 body {
-    font-family: 'geomanist' !important;
+    font-family: 'Bitter', serif;
 }
 .content-white {
+    font-family: 'Bitter', serif;
     color: #FCFCFC;
 }
 .content-white-2 {
@@ -164,6 +165,13 @@ nav span {
   }
 }
 
+/* 404 page */
+.forofour {
+    background: url("images/404.png");
+    background-size: cover;
+}
+
+
 /* Landing page */ 
 
 
@@ -204,8 +212,8 @@ nav span {
     width: 100%;
 }
 #yellow-title {
+    font-family: 'geomanist-bold-italic';
     font-weight: bolder;
-    font-style: italic;
     color: #FEFF09;
     font-size: 28pt;
     text-align: center;
