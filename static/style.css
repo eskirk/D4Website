@@ -130,7 +130,7 @@ nav a:hover {
     color: #FEFF09;
 }
 nav .logo:hover {
-    color: #262626;
+    color: #262626 !important;
 }
 nav span {
     display: block;
@@ -208,6 +208,7 @@ nav span {
     -webkit-text-stroke-color: #262626;
 }
 #passion {
+    font-family: 'Bitter', serif;
     padding: 2% 0 2% 0;
     width: 100%;
 }
