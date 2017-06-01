@@ -360,8 +360,8 @@ nav span {
 }
 .thumbnails li, .thumbnails a, .thumbnails img {
     display: inline-block;
-    width: 4.5em;
-    height: 3em;
+    width: 7.5em;
+    height: 6em;
     border: none;
 }
 .thumbnails a { 
@@ -369,8 +369,8 @@ nav span {
 }
 .thumbnails2 li, .thumbnails2 a, .thumbnails2 img {
     display: inline-block;
-    width: 4.5em;
-    height: 3em;
+    width: 7.5em;
+    height: 5em;
     border: none;
 }
 .thumbnails2 a { 
