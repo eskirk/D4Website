@@ -413,7 +413,7 @@ nav span {
 .card-1:hover {
     box-shadow: 0 5px 10px #FEFF09, 0 5px 5px #FEFF09;
 }
-.card-1 a {
+a .card-1 {
     color: #FEFF09 !important;
 }
 #half_dome_story {
@@ -426,7 +426,7 @@ nav span {
 .hdome-r {
 /*    margin: 0 auto;*/
     margin-top: 5%;
-    margin-right: 15%;
+    margin-right: 2%;
     -webkit-box-shadow: 5px 5px 5px 0px rgba(254,255,9,1);
     -moz-box-shadow: 5px 5px 5px 0px rgba(254,255,9,1);
     box-shadow: 5px 5px 5px 0px rgba(254,255,9,1);
@@ -435,7 +435,7 @@ nav span {
 .hdome-l {
 /*    margin: 0 auto;*/
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 20%;
     -webkit-box-shadow: 5px 5px 5px 0px rgba(254,255,9,1);
     -moz-box-shadow: 5px 5px 5px 0px rgba(254,255,9,1);
     box-shadow: 5px 5px 5px 0px rgba(254,255,9,1);
