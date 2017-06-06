@@ -165,8 +165,13 @@ nav span {
     transform: skewX(45deg)
   }
 }
-/* Landing page */ 
-
+/* Landing page */
+.landing-links {
+    padding-left: 5%;
+    padding-top: 35%;
+    position: static;
+    bottom: 80%;
+}
 
 /* About page */
 .gradient {
